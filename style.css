@@ -1,0 +1,96 @@
+body {
+  padding: 0 3vmin 0 3vmin;
+  margin: 0 0 0 0;
+  background-image: url("wood.jpg");
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2.5vw;
+}
+
+p {
+  font-family: 'Courier';
+  font-size: 1.8vh;
+}
+
+.wrapper {
+  height: 238vmin;
+}
+
+.box {
+  height: 100vmin;
+  background-image: url("file.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  padding: 0.5vmin 0 0 15vmin;
+}
+
+.content {
+  background-image: url("paper.jpg");
+  background-size: cover;
+  box-shadow: 1px 1px 10px black;
+  margin: 5vmin 3vmin 3vmin 3vmin;
+  padding: 10vmin 10vmin 0 10vmin;
+  height: 80vmin;
+}
+
+.content:nth-of-type(1n) {
+  margin-bottom: 0;
+  height: 72vmin;
+}
+
+.picContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.picContainer img {
+  filter: grayscale(100%);
+  border: 8px solid white;
+  box-shadow: 1px 1px 6px black;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-column-gap: 2vmin;
+}
+
+.start1 {
+  grid-column-start: 1;
+  grid-column-end: span 3;
+  background-image: url("jfk.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 40vmin;
+
+}
+
+.start2 {
+  grid-column-start: 4;
+  grid-column-end: span 5;
+}
+
+.styleBox {
+  height: 70vmin;
+  margin: 5vmin 5vmin 5vmin 5vmin;
+  width: auto;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
